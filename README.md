@@ -2,8 +2,10 @@
 An image classifier using the Torchvision library to classify images from the CIFAR-10 dataset
 
 ## Purpose 💡
-This project uses Torchvision to create a simple image classifier using the CIFAR-10 dataset. 
-  
+This project uses Torchvision to create a simple image classifier using the CIFAR-10 dataset.
+
+## Running this project
+The CIFAR10_Image_Classifier.py file will use a supported GPU if it is available. If not it will use the CPU. The script also downloads the data so you should not need to download the CIFAR-10 dataset separately.
   
 ## Install 📑
 The following packages will be required:
